@@ -1,0 +1,30 @@
+.header-navbar {
+    .btn-toolbar {
+        margin-top: 6px;
+        .kitten-button {
+            margin-right:10px;
+        }
+        .next {
+            margin-left:10px;
+        }
+    }
+    .header-title {
+        color: white;
+        align-content: center;
+        font-family: Impact, Charcoal, sans-serif;
+        margin:6px 20px 0px 0px;
+    }
+    .button-control-group {
+        margin-top: 6px;
+        margin-right:2%;
+        #bg-nested-dropdown {
+            background-color: #333;
+            color: white;
+            border-color: #286090;
+        }
+        &.disabled {
+            background-color: gray;
+        }
+    }
+    
+};
