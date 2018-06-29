@@ -26,11 +26,11 @@ function start(app, port) {
     });
 
     app.delete('/api/favourites', (req, res) => {
-        let fav = _.find(favourites, item => {
+        const favId = favourites.findIndex(item => {
             return item.id === req.query.id;
         });
-        if (fav) {
-            favourites.pop(fav);
+        if (favId) {
+          favourites.splice(favId, 1)
         }
         res.end();
     });
