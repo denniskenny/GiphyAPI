@@ -7,8 +7,7 @@ const giphyService = function($http) {
     returnVal.searchApi = function(searchTerm, offset) {
 
         if (!offset) offset = 0;
-        return 
-$http.get(`http://api.giphy.com/v1/gifs/search?q=${searchTerm}&api=1PxfCFVSyCqRKaRLa6G02bZWHcDbobVv&limit=15&offset=${offset}`);
+        return $http.get(`http://api.giphy.com/v1/gifs/search?q=${searchTerm}&api=1PxfCFVSyCqRKaRLa6G02bZWHcDbobVv&limit=15&offset=${offset}`);
 
     };
 
