@@ -21,12 +21,7 @@ const giphyService = function($http) {
     };
 
     returnVal.removeFromFavourites = function(data) {
-
-        $http.delete(`/api/favourites?id=${data.id}`).then(
-            function(success) {},
-            function(fail) {
-                console.log(fail);
-            });
+        return $http.delete(`/api/favourites?id=${data.id}`);
     };
 
 

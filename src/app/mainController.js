@@ -63,7 +63,13 @@ export default function(giphyService) {
     }
 
     main.removeFromFavourites = function(item) {
-        giphyService.removeFromFavourites(item);
+        giphyService.removeFromFavourites(item).then(
+        function(results){
+            _.remove(main.favourites,item);
+        },
+        function(fail){
+            
+        });
     }
 
     main.getFavourites = function() {
