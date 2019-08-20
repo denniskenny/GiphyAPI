@@ -60,14 +60,14 @@ export class Header extends React.Component {
         </Navbar.Header>
         <ButtonGroup className="button-control-group pull-right">
           <DropdownButton title={dropDownTitle} id="bg-nested-dropdown">
-            <MenuItem eventKey="1" onClick={this.kittenFilter.bind(this)}>
+            <MenuItem eventKey="1" onClick={this.kittenFilter}>
               Kittens
             </MenuItem>
           </DropdownButton>
-          <Button bsStyle="primary" onClick={this.previous.bind(this)}>
+          <Button bsStyle="primary" onClick={this.previous}>
             Prev
           </Button>
-          <Button bsStyle="primary" onClick={this.next.bind(this)}>
+          <Button bsStyle="primary" onClick={this.next}>
             Next
           </Button>
         </ButtonGroup>
