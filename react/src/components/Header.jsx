@@ -69,11 +69,7 @@ export class Header extends React.Component {
               Puppies
             </MenuItem>
           </DropdownButton>
-          <Button
-            bsStyle="primary"
-            disabled={headerOptions.disabled}
-            onClick={this.previous.bind(this)}
-          >
+          <Button bsStyle="primary" onClick={this.previous.bind(this)}>
             Prev
           </Button>
           <Button bsStyle="primary" onClick={this.next.bind(this)}>
