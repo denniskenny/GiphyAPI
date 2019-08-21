@@ -60,7 +60,7 @@ export class Header extends React.Component {
         </Navbar.Header>
         <ButtonGroup className="button-control-group pull-right">
           <DropdownButton title={dropDownTitle} id="bg-nested-dropdown">
-            <MenuItem eventKey="1" onClick={this.kittenFilter}>
+            <MenuItem eventKey="1" onClick={this.kittenFilter.bind(this)}>
               Kittens
             </MenuItem>
           </DropdownButton>
