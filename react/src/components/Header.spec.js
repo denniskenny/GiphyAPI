@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Header from './Header';
+import Header from './Header.jsx';
 
 describe('<Header />', () => {
   it('should have a pretty cool gif displayed', () => {

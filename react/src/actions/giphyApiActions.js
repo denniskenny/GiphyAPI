@@ -43,8 +43,8 @@ export const fetchGifyResults = (filter = 'cute+puppies+kittens', offset = 0) =>
         q: filter,
         rating: 'pg',
         offset: offset,
-        limit: 15,
-        api_key: 'dc6zaTOxFJmzC' //ToDO: PROD Ready API KEY - Requested from Gliphy - Awaiting response
+        limit: 10,
+        api_key: '1PxfCFVSyCqRKaRLa6G02bZWHcDbobVv' //ToDO: PROD Ready API KEY - Requested from Gliphy - Awaiting response
       },
       method: 'get'
     }).then(({
