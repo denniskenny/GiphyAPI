@@ -1,0 +1,14 @@
+.giphy-view {
+    .image-thumbnails {
+        border-top: none;
+        border-right: 2px solid yellow;
+        border-left:none;
+        border-top-right-radius: 10px;
+        border-bottom: none;
+        background-color: #282828;
+        background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        -webkit-box-shadow: 0 10px 6px -6px black;
+        -moz-box-shadow: 0 10px 6px -6px black;
+            box-shadow: 0 10px 6px -6px black;
+    }
+}

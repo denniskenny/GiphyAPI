@@ -1,0 +1,24 @@
+// thumbnail is image-thumnails
+// modal is image-modal
+
+
+.modal-dialog {
+  .modal-content {
+    margin-top:150px;
+    background-color: #282828;
+    border-top: 2px solid yellow;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom: 2px solid lightgreen;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    .modal-footer {
+      margin-top: -15px;
+      border-top: none
+    }
+    .image-thumnails {
+      background-color: #282828;
+      border: none;
+    }
+  }
+}
