@@ -57,7 +57,7 @@
     "babel-preset-react": "6.16.0",
     "babel-preset-react-hmre": "1.1.1",
     "babel-preset-stage-1": "6.16.0",
-    "bootstrap": "3.3.7",
+    "bootstrap": "3.4.1",
     "browser-sync": "latest",
     "chai": "3.5.0",
     "chalk": "1.1.3",
