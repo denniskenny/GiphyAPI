@@ -3,7 +3,7 @@ import {
   RECIEVE_GIPHY_RESPONSE,
   RECIEVE_FILTER_UPDATE,
   RECIEVE_OFFSET_UPDATE,
-  RECIEVE_MODAL_UPDATE } from './../constants/actionTypes';
+  RECIEVE_MODAL_UPDATE } from '../constants/actionTypes';
 
 export const updateOffset = (offset) => {
   return {

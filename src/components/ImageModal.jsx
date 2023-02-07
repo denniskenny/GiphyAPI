@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import { Button, Modal, Thumbnail } from 'react-bootstrap';
-import './../styles/imagemodal.scss';
+import '../styles/imagemodal.scss';
 import _ from 'lodash';
 
 export class ImageModal extends React.Component {

@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import { Thumbnail, Col } from 'react-bootstrap';
-import './../styles/giphyview.scss';
+import '../styles/giphyview.scss';
 // import { ImageModal } from './ImageModal.jsx';
 export class GiphyView extends React.Component {
 

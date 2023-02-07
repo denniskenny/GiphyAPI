@@ -3,12 +3,12 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { Grid, Row, Col } from 'react-bootstrap';
 import { GiphyViewer } from './GiphyViewer.jsx';
-import * as actions from './../actions/giphyApiActions';
+import * as actions from '../actions/giphyApiActions';
 import { ImageModal } from './ImageModal.jsx';
-import { shouldDisplayModal, getSelectedImage } from './../selectors/homePageSelectors';
+import { shouldDisplayModal, getSelectedImage } from '../selectors/homePageSelectors';
 import { Header } from './Header.jsx';
 import _ from 'lodash';
-import './../styles/homepage.scss';
+import '../styles/homepage.scss';
 
 export class HomePage extends React.Component {
   componentWillMount() {

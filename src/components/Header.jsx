@@ -10,8 +10,8 @@ import {
   updateFilterAction,
   incrementOffset,
   decrementOffset,
-} from './../selectors/headerSelectors';
-import './../styles/header.scss';
+} from '../selectors/headerSelectors';
+import '../styles/header.scss';
 
 export class Header extends React.Component {
   kittenFilter() {

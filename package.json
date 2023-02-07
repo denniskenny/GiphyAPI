@@ -30,6 +30,7 @@
   "author": "Reggie Morgan <r.morgan.pro@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "fsevents": "latest",
     "object-assign": "4.1.0",
     "react": "15.4.2",
     "react-bootstrap": "0.30.7",
@@ -39,8 +40,7 @@
     "react-router": "3.0.0",
     "react-router-redux": "4.0.7",
     "redux": "3.6.0",
-    "redux-thunk": "2.1.0",
-    "fsevents": "latest"
+    "redux-thunk": "2.1.0"
   },
   "devDependencies": {
     "autoprefixer": "6.5.4",
