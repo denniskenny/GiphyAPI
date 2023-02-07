@@ -1,0 +1,53 @@
+<!-- Page Content -->
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-12">
+            <h1 class="page-header">Favourites</h1>
+        </div>
+
+        <div ng-repeat="result in main.favourites" class="col-lg-4 col-md-4 col-xs-6 thumb " data-toggle="modal" data-target="#myModal">
+            <a class="thumbnail" ng-click=main.displayPopup(result) href="">
+                <img src="{{result.thumbnail}}" alt=" ">
+            </a>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row ">
+                <div class="col-lg-12 ">
+                    <p>Acme Corp 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img class="img-responsive " src="{{main.selectedItem.fullSize}}" alt=" ">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" ng-click="main.removeFromFavourites(main.selectedItem)">
+                            <span class="glyphicon glyphicon-minus" aria-hidden="true" title="Remove from favourites"></span>
+                        </button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
