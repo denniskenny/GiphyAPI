@@ -6,19 +6,19 @@ This application presents views of files from the GiphyAPI. The code challenge m
 
 ### Requirements
 
-1. Node version ~18
+1. Node version 19
 
 If using [nvm](https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/)
 
 ```
-nvm install 18
-nvm use 18
+nvm install 19
+nvm use 19
 ```
 
 2. Yarn
 
 ```
-npm install --global yarn
+npm i yarn
 ```
 
 ### Set up
