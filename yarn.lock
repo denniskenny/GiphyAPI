@@ -5134,7 +5134,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@npm:latest, fsevents@npm:~2.3.2":
+"fsevents@npm:~2.3.2":
   version: 2.3.2
   resolution: "fsevents@npm:2.3.2"
   dependencies:
@@ -5154,7 +5154,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3Alatest#optional!builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>":
   version: 2.3.2
   resolution: "fsevents@patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
@@ -10277,7 +10277,6 @@ __metadata:
     eslint-watch: "npm:2.1.14"
     extract-text-webpack-plugin: "npm:2.0.0-beta.4"
     file-loader: "npm:0.9.0"
-    fsevents: "npm:latest"
     html-webpack-plugin: "npm:2.24.1"
     identity-obj-proxy: "npm:3.0.0"
     jest: "npm:18.1.0"
