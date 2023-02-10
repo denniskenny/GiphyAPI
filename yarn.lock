@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 7
+  version: 6
   cacheKey: 9
 
 "@allenfang/react-toastr@npm:2.8.2":
@@ -5144,9 +5144,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A^1.0.0#optional!builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A^1.2.7#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A^1.0.0#~builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A^1.2.7#~builtin<compat/fsevents>":
   version: 1.2.13
-  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#optional!builtin<compat/fsevents>::version=1.2.13&hash=d11327"
+  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=18f3a7"
   dependencies:
     bindings: "npm:^1.5.0"
     nan: "npm:^2.12.1"
@@ -5154,9 +5154,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -8898,10 +8898,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"open@npm:0.0.5":
-  version: 0.0.5
-  resolution: "open@npm:0.0.5"
-  checksum: 0eb72096c395ef9a8f9540cf83d120f87920ba67c7c7efebe1e581f740bf43e27b16d7ab922379fc7afa5662ea941ee9ee7cbb51a459dc8092eec9f3949b057d
+"open@npm:6.0.0":
+  version: 6.0.0
+  resolution: "open@npm:6.0.0"
+  dependencies:
+    is-wsl: ^1.1.0
+  checksum: 8/f428d404fc958d76af137dfd4b9e005f3c14954e7d22414e03d58703bb709d52bff38e46ebfe7fbcdd37c0e77abe0b61cb5094789df3a5d1ff849a40e10e8cab
   languageName: node
   linkType: hard
 
@@ -10249,70 +10251,70 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react_giphy_app@workspace:."
   dependencies:
-    autoprefixer: "npm:6.5.4"
-    axios: "npm:0.15.3"
-    babel-cli: "npm:6.18.0"
-    babel-core: "npm:6.20.0"
-    babel-eslint: "npm:7.1.1"
-    babel-jest: "npm:18.0.0"
-    babel-loader: "npm:6.2.10"
-    babel-plugin-transform-react-constant-elements: "npm:6.9.1"
-    babel-plugin-transform-react-remove-prop-types: "npm:0.2.11"
-    babel-polyfill: "npm:6.20.0"
-    babel-preset-latest: "npm:6.16.0"
-    babel-preset-react: "npm:6.16.0"
-    babel-preset-react-hmre: "npm:1.1.1"
-    babel-preset-stage-1: "npm:6.16.0"
-    bootstrap: "npm:3.3.7"
-    browser-sync: "npm:latest"
-    chai: "npm:3.5.0"
-    chalk: "npm:1.1.3"
-    connect-history-api-fallback: "npm:1.3.0"
-    coveralls: "npm:2.11.15"
-    css-loader: "npm:0.26.1"
-    enzyme: "npm:2.6.0"
-    eslint: "npm:3.12.2"
-    eslint-plugin-import: "npm:2.2.0"
-    eslint-plugin-react: "npm:6.8.0"
-    eslint-watch: "npm:2.1.14"
-    extract-text-webpack-plugin: "npm:2.0.0-beta.4"
-    file-loader: "npm:0.9.0"
-    html-webpack-plugin: "npm:2.24.1"
-    identity-obj-proxy: "npm:3.0.0"
-    jest: "npm:18.1.0"
-    json-loader: "npm:0.5.4"
-    mockdate: "npm:2.0.1"
-    node-sass: "npm:latest"
-    npm-run-all: "npm:3.1.2"
-    object-assign: "npm:4.1.0"
-    open: "npm:0.0.5"
-    postcss-loader: "npm:1.2.1"
-    prompt: "npm:1.0.0"
-    react: "npm:15.4.2"
-    react-addons-test-utils: "npm:15.4.1"
-    react-bootstrap: "npm:0.30.7"
-    react-bootstrap-table: "npm:2.11.2"
-    react-dom: "npm:15.4.1"
-    react-photo-gallery: "npm:latest"
-    react-redux: "npm:5.0.1"
-    react-router: "npm:3.0.0"
-    react-router-bootstrap: "npm:0.23.1"
-    react-router-redux: "npm:4.0.7"
-    redux: "npm:3.6.0"
-    redux-immutable-state-invariant: "npm:1.2.4"
-    redux-logger: "npm:2.8.1"
-    redux-thunk: "npm:2.1.0"
-    replace: "npm:0.3.0"
-    rimraf: "npm:2.5.4"
-    sass-loader: "npm:4.1.0"
-    style-loader: "npm:0.13.1"
-    url-loader: "npm:0.5.7"
-    webpack: "npm:2.2.1"
-    webpack-bundle-analyzer: "npm:2.1.1"
-    webpack-cli: "npm:4.7.2"
-    webpack-dev-middleware: "npm:1.9.0"
-    webpack-hot-middleware: "npm:2.13.2"
-    webpack-md5-hash: "npm:0.0.5"
+    autoprefixer: 6.5.4
+    axios: 0.15.3
+    babel-cli: 6.18.0
+    babel-core: 6.20.0
+    babel-eslint: 7.1.1
+    babel-jest: 18.0.0
+    babel-loader: 6.2.10
+    babel-plugin-transform-react-constant-elements: 6.9.1
+    babel-plugin-transform-react-remove-prop-types: 0.2.11
+    babel-polyfill: 6.20.0
+    babel-preset-latest: 6.16.0
+    babel-preset-react: 6.16.0
+    babel-preset-react-hmre: 1.1.1
+    babel-preset-stage-1: 6.16.0
+    bootstrap: 3.3.7
+    browser-sync: latest
+    chai: 3.5.0
+    chalk: 1.1.3
+    connect-history-api-fallback: 1.3.0
+    coveralls: 2.11.15
+    css-loader: 0.26.1
+    enzyme: 2.6.0
+    eslint: 3.12.2
+    eslint-plugin-import: 2.2.0
+    eslint-plugin-react: 6.8.0
+    eslint-watch: 2.1.14
+    extract-text-webpack-plugin: 2.0.0-beta.4
+    file-loader: 0.9.0
+    html-webpack-plugin: 2.24.1
+    identity-obj-proxy: 3.0.0
+    jest: 18.1.0
+    json-loader: 0.5.4
+    mockdate: 2.0.1
+    node-sass: latest
+    npm-run-all: 3.1.2
+    object-assign: 4.1.0
+    open: 6.0.0
+    postcss-loader: 1.2.1
+    prompt: 1.0.0
+    react: 15.4.2
+    react-addons-test-utils: 15.4.1
+    react-bootstrap: 0.30.7
+    react-bootstrap-table: 2.11.2
+    react-dom: 15.4.1
+    react-photo-gallery: latest
+    react-redux: 5.0.1
+    react-router: 3.0.0
+    react-router-bootstrap: 0.23.1
+    react-router-redux: 4.0.7
+    redux: 3.6.0
+    redux-immutable-state-invariant: 1.2.4
+    redux-logger: 2.8.1
+    redux-thunk: 2.1.0
+    replace: 0.3.0
+    rimraf: 2.5.4
+    sass-loader: 4.1.0
+    style-loader: 0.13.1
+    url-loader: 0.5.7
+    webpack: 2.2.1
+    webpack-bundle-analyzer: 2.1.1
+    webpack-cli: 4.7.2
+    webpack-dev-middleware: 1.9.0
+    webpack-hot-middleware: 2.13.2
+    webpack-md5-hash: 0.0.5
   languageName: unknown
   linkType: soft
 
@@ -10864,23 +10866,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A1.1.7#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A1.1.7#~builtin<compat/resolve>":
   version: 1.1.7
-  resolution: "resolve@patch:resolve@npm%3A1.1.7#optional!builtin<compat/resolve>::version=1.1.7&hash=3bafbf"
-  checksum: 889adf84a6d5476ef0173028ff91193a3d06794e2d35c78c3d0f853397211d332c0fdb136dda2f77da400eefe724f6b76eb0379a4fe7ba65c94b900e67217c3a
+  resolution: "resolve@patch:resolve@npm%3A1.1.7#~builtin<compat/resolve>::version=1.1.7&hash=07638b"
+  checksum: 8/e9dbca78600ae56835c43a09f1276876c883e4b4bbd43e2683fa140671519d2bdebeb1c1576ca87c8c508ae2987b3ec481645ac5d3054b0f23254cfc1ce49942
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.1.6#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.2.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.9.0#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.1.6#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.2.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.9.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#optional!builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: "npm:^2.9.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: a6f214b97d932445796f78dab7a898ec78966327e0d6cb571f90b6ac0f3b3347bf6bab0a071d899bfdc316b26ed845f6655310b38b8f6ee4da5272a0c5ecef85
+  checksum: 8/5656f4d0bedcf8eb52685c1abdf8fbe73a1603bb1160a24d716e27a57f6cecbe2432ff9c89c2bd57542c3a7b9d14b1882b73bfe2e9d7849c9a4c0b8b39f02b8b
   languageName: node
   linkType: hard
 
@@ -12391,13 +12393,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^4.6.2#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A^4.6.2#~builtin<compat/typescript>":
   version: 4.9.4
-  resolution: "typescript@patch:typescript@npm%3A4.9.4#optional!builtin<compat/typescript>::version=4.9.4&hash=23ec76"
+  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 8944d2310e83395ea5b50a4f3d12fbd8f834a9fd8b0b9a2316f24e78890b04d0015a434d8d825a84971caf3c4bd0d52c79f38d3dce80e05a1892dc9f7fa611f8
+  checksum: 8/37f6e2c3c5e2aa5934b85b0fddbf32eeac8b1bacf3a5b51d01946936d03f5377fe86255d4e5a4ae628fd0cd553386355ad362c57f13b4635064400f3e8e05b9d
   languageName: node
   linkType: hard
 
